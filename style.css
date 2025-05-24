@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSnjA37t22mJyCr9ODYrCXgbpNybzs28ulJFbQP5drhug3MXCYJiUl-yhEurjLBT_HnTDfufcCC3k8yInGtnKITVyxC126ZCcF98z4uUg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.pale-bg {
+    background-color: lightgray;
+    color: rgb(196, 196, 196);
+}
+
+html {
+    color: #e2e2e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #020202e6;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+
+    font-size: 3.5rem;
+}
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
