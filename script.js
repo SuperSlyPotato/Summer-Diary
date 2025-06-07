@@ -34,3 +34,12 @@ console.log(`My hobbies include: ${hobbies.join(", ")}.`);
 console.log(`My favorite color is ${faveColor}.`);
 console.log(`My favorite food is ${favefood}.`);
 console.log(`Do I like sushi? ${likesSushi}`);
+
+document.querySelectorAll('.accordion-header').forEach(function (button) {
+    button.addEventListener('click', function () {
+        const content = this.nextElementSibling;
+        content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+    
+    });
+});
+
