@@ -1,13 +1,8 @@
 
-header {
-  background-image: url('https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSnjA37t22mJyCr9ODYrCXgbpNybzs28ulJFbQP5drhug3MXCYJiUl-yhEurjLBT_HnTDfufcCC3k8yInGtnKITVyxC126ZCcF98z4uUg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
+
 
 body {
-  background-color: rgb(59, 68, 115);
+  background-image: url('homebg.png');
   color: rgb(119, 123, 154);
 }
 
@@ -86,4 +81,28 @@ display: none;
 .accordion-header:hover {
   background-color: rgba(255, 255, 255, 0.277);
   
+}
+
+.paragraph {
+color:rgb(224, 225, 233)
+}
+
+.blog-entry {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding-right: 2%;
+  margin-bottom: 2em;
+}
+.blog-entry img {
+  width: 40%;
+  border-radius: 0 1.5em 1.5em 0;
+}
+.enter-password button {
+  font-size: 1.3em;
+  padding: 0.3;
+  border-radius: 0.5em;
+  background-color: rgba(85, 94, 137, 0.679);
+  width: 7%;
+  border: 0;
 }
