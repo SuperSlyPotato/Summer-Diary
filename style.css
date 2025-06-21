@@ -3,7 +3,7 @@
 
 body {
   background-image: url('homebg.png');
-  color: rgb(119, 123, 154);
+  color: rgb(152, 156, 182);
 }
 
 html {
@@ -87,22 +87,45 @@ display: none;
 color:rgb(224, 225, 233)
 }
 
-.blog-entry {
+.log-entry {
   display: flex;
   align-items: center;
   gap: 2em;
   padding-right: 2%;
   margin-bottom: 2em;
+  color:rgb(224, 225, 233)
 }
-.blog-entry img {
+
+.hidden {
+  display: none;
+}
+
+.log-entry img {
   width: 40%;
   border-radius: 0 1.5em 1.5em 0;
 }
+
+.enter-password input {
+  font-size: 1.5rem;
+  border-radius: 0.5em;
+  border: 0;
+  padding: 0.2em;
+  width: 40%;
+  background-color: rgba(85, 94, 137, 0.679);
+}
+
 .enter-password button {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   padding: 0.3;
   border-radius: 0.5em;
-  background-color: rgba(85, 94, 137, 0.679);
+  background-color: rgba(117, 124, 159, 0.679);
   width: 7%;
   border: 0;
+}
+.password-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  color:rgba(85, 94, 137, 0.679)
 }
